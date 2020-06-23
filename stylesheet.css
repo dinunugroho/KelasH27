@@ -134,14 +134,14 @@ header {
 }
 
 .heading {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 50px;
   color: #5f5d60;
 }
 
 .heading h2 {
-  font-weight: normal;
-  text-size: 20px;
+  font-weight: bold;
+  text-size: 50px;
 }
 
 .lesson {
@@ -169,12 +169,13 @@ header {
 }
 
 .heading h3 {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .message-wrapper {
+  background:linear-gradient(-25deg, rgb(241, 177, 125), #55acee, #b3aeb5, #dfc11c);
   border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -190,20 +191,6 @@ header {
     overflow: hidden;
     margin: 50px 15px;
     position: relative;
-}
-.view-slider{
-    width: 500px;
-    height: 500px;
-    position: absolut;
-    animation-name: slider;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-.view-slider img{
-    width: 20%;
-    height: 600px;
-    float: left;
 }
 
 .message:active {
@@ -224,6 +211,7 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: #26282c;
 }
 
 /* Ketik code Anda dibawah */
@@ -233,4 +221,10 @@ footer {
   font-size: 25px;
   padding: 21px 0;
   display: none;
+}
+.kelompok{
+  padding-top: 15px;
+  font-size: 15px;
+  color: #3b5998;
+  font-weight: bold;
 }
